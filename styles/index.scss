@@ -1,0 +1,26 @@
+@import 'breakpoints.scss';
+@import 'common.scss';
+@import 'footer.scss';
+@import 'header.scss';
+@import 'headline.scss';
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Work Sans';
+  font-size: 16px;
+  color: #2b292d;
+}
+
+.page {
+  width: 100%;
+  overflow-x: hidden;
+  @include for-large-up {
+    width: 1400px;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
