@@ -553,6 +553,9 @@
     width: 262px;
   }
 }
+.audience__action-text {
+  margin-top: 22px;
+}
 
 .headline {
   width: 100%;
