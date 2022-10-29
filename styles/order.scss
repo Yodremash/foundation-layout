@@ -3,6 +3,8 @@
   background-color: #f4f5f7;
 
   @include for-large-up {
+    max-width: 1400px;
+    max-height: 441px;
     padding: 73px 0 72px 0;
     display: flex;
     justify-content: center;
@@ -22,13 +24,13 @@
     }
   }
   &__title {
+    margin: 0;
     font-size: 40px;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: -0.25px;
     color: #2b292d;
     margin-top: 40px;
-    text-align: center;
   }
   &__text {
     margin: 0;
@@ -36,7 +38,7 @@
     line-height: 32px;
     letter-spacing: 0px;
     text-align: left;
-    margin-top: 18px;
+    margin-top: 12px;
   }
 
   &__form {
