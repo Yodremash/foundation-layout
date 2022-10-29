@@ -80,6 +80,11 @@
     display: none;
   }
   display: flex;
+  &__image {
+    width: 48px;
+    height: 48px;
+    margin-right: 13px;
+  }
   @include for-large-up {
     &__description {
       font-size: 18px;
@@ -101,11 +106,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-  &__image {
-    width: 48px;
-    height: 48px;
-    margin-right: 13px;
   }
 
   &__name {
