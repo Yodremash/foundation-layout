@@ -129,6 +129,9 @@
 
   &__list-item {
     padding-top: 6px;
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
 

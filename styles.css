@@ -273,6 +273,9 @@
 .nav-list__list-item {
   padding-top: 6px;
 }
+.nav-list__list-item:hover {
+  cursor: pointer;
+}
 
 .terms {
   line-height: 22px;
