@@ -1,6 +1,6 @@
 # Foundation layout project
 
-### [Link](https://yodremash.github.io/foundation-layout/)
+### [Link](https://yodremash.github.io/foundation-layout-project/)
 
 Layout supports mobile (up-to-400) and desktop (up-to-1400) versions
 
