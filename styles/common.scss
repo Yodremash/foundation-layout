@@ -1,4 +1,7 @@
-.action-button {
+.blue-action-button {
+  &:hover {
+    cursor: pointer;
+  }
   border-radius: 2px;
   border: none;
   background-color: #3040c4;
@@ -8,7 +11,20 @@
   font-size: 18px;
   font-weight: 700;
 }
-
+.white-action-button {
+  &:hover {
+    cursor: pointer;
+  }
+  margin-top: 15px;
+  border-radius: 2px;
+  border: none;
+  background-color: #fff;
+  color: #3040c4;
+  width: 158px;
+  height: 48px;
+  font-size: 18px;
+  font-weight: 700;
+}
 .hide_desktop {
   @include for-large-up {
     display: none;

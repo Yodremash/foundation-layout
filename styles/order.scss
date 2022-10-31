@@ -24,6 +24,7 @@
     }
   }
   &__title {
+    text-align: center;
     margin: 0;
     font-size: 40px;
     font-weight: 700;
@@ -31,6 +32,9 @@
     letter-spacing: -0.25px;
     color: #2b292d;
     margin-top: 40px;
+    @include for-large-up {
+      text-align: start;
+    }
   }
   &__text {
     margin: 0;
