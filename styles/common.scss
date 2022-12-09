@@ -11,6 +11,7 @@
   font-size: 18px;
   font-weight: 700;
 }
+
 .white-action-button {
   &:hover {
     cursor: pointer;
@@ -25,13 +26,5 @@
   font-size: 18px;
   font-weight: 700;
 }
-.hide_desktop {
-  @include for-large-up {
-    display: none;
-  }
-}
-.hide_mobile {
-  @include for-large-down {
-    display: none;
-  }
-}
+
+$background-color: rgba(0, 162, 199, 0.07);

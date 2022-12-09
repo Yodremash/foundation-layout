@@ -14,6 +14,7 @@
   &__details {
     max-width: 505px;
   }
+
   &__illustration {
     max-width: 200px;
     margin-left: 45px;
@@ -23,6 +24,7 @@
       margin-right: 121px;
     }
   }
+
   &__title {
     text-align: center;
     margin: 0;
@@ -36,6 +38,7 @@
       text-align: start;
     }
   }
+
   &__text {
     margin: 0;
     font-size: 22px;
@@ -51,6 +54,7 @@
       margin-top: 26px;
     }
   }
+
   &__email {
     margin-top: 40px;
     height: 48px;
@@ -70,6 +74,7 @@
       color: #2b292d;
     }
   }
+
   &__button {
     margin-top: 12px;
 
@@ -83,14 +88,15 @@
       flex-shrink: 0;
     }
   }
+
   &__terms {
     font-size: 14px;
-
     line-height: 22px;
     letter-spacing: 0px;
     text-align: left;
     color: #2b292d99;
   }
+
   &__terms-link {
     color: #3142c6;
   }
