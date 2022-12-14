@@ -3,15 +3,9 @@
   padding: 50px 15px;
 
   @include for-large-up {
-    padding-bottom: 110px;
+    padding: 110px 0px 114px 0px;
   }
 
-  &__content {
-    @include for-large-up {
-      max-width: 555px;
-      margin: auto;
-    }
-  }
   &__title {
     @include for-large-up {
       margin-top: 58px;
@@ -35,11 +29,13 @@
     text-align: center;
 
     @include for-large-up {
+      margin: auto;
       margin-top: 24px;
       font-size: 56px;
       font-weight: 700;
       line-height: 56px;
       letter-spacing: -0.5px;
+      max-width: 555px;
     }
   }
 
@@ -49,48 +45,45 @@
     font-size: 24px;
     line-height: 34px;
     text-align: center;
+
     @include for-large-up {
+      margin: auto;
       margin-top: 30px;
+      max-width: 555px;
     }
   }
 
   &__actions {
     margin-top: 30px;
+
     @include for-large-up {
       margin-top: 34px;
       display: flex;
       justify-content: center;
     }
-  }
 
-  &__learn-button {
-    margin-top: 11px;
-    border-radius: 2px;
-    border: none;
-    background-color: #fff;
-    color: #000000;
-    width: 158px;
-    height: 48px;
-    font-size: 18px;
-    font-weight: 700;
-    background: linear-gradient(
-        180deg,
-        rgba(255, 255, 255, 0.05) 0%,
-        rgba(255, 255, 255, 1e-5) 100%
-      ),
-      #ffffff;
-    background-blend-mode: overlay, normal;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    &-button {
+      width: 100%;
 
-    @include for-large-up {
-      margin-top: 0;
-      margin-left: 10px;
+      &:nth-child(2) {
+        background-color: $white-color;
+        color: $black-color;
+        margin: 12px 0 0 0;
+      }
+
+      @include for-large-up {
+        width: 160px;
+        &:nth-child(2) {
+          margin-top: 0px;
+          margin-left: 10px;
+        }
+      }
     }
   }
 
   &__buttons {
     margin-top: 40px;
+
     @include for-large-up {
       margin-top: 111px;
       display: flex;
@@ -99,7 +92,7 @@
     }
   }
 
-  &__action-button {
+  &__user-card {
     margin-top: 15px;
     display: flex;
     flex-direction: column;

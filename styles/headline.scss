@@ -27,23 +27,25 @@
 
   &__actions {
     margin-top: 30px;
-  }
-
-  &__learn-more-btn {
-    margin-top: 15px;
-    border-radius: 2px;
-    border: none;
-    background-color: #fff;
-    color: #3040c4;
-    width: 158px;
-    height: 48px;
-    font-size: 18px;
-    font-weight: 700;
+    &-button {
+      &:nth-child(2) {
+        background-color: $white-color;
+        color: $blue-color;
+        margin-left: 5px;
+      }
+    }
   }
 
   @include for-large-down {
-    &__actions-btn {
+    &__actions-button {
       width: 100%;
+
+      margin-bottom: 15px;
+      &:nth-child(2) {
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 15px;
+      }
     }
   }
 
@@ -77,14 +79,8 @@
       z-index: 1;
     }
 
-    &__learn-more-btn {
-      margin-top: 0;
-      margin-left: 10px;
-    }
-
     &__actions {
       margin-top: 58px;
-      display: flex;
     }
 
     &__content {
